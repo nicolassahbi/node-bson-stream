@@ -1,10 +1,10 @@
 {
-  "name": "bson-stream",
-  "version": "0.0.8",
+  "name": "bson-stream-optim",
+  "version": "0.0.1",
   "author": {
-    "name": "Tim Kuijsten",
-    "email": "tim@netsend.nl",
-    "url": "https://github.com/timkuijsten"
+    "name": "Nicolas Sahbi",
+    "email": "nicolas.sahbi.pro@free.fr",
+    "url": "https://github.com/nicolassahbi"
   },
   "license": "ISC",
   "description": "Read a binary stream that contains BSON objects and emit each as a JavaScript object.",
@@ -14,17 +14,17 @@
     "parser"
   ],
   "dependencies": {
-    "bson": "^0.4.20"
+    "bson": "latest"
   },
   "devDependencies": {
-    "mocha": "1.x",
-    "should": "1.x"
+    "mocha": "latest",
+    "should": "latest"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/timkuijsten/node-bson-stream.git"
+    "url": "git://github.com/nicolassahbi/node-bson-stream.git"
   },
-  "bugs": "https://github.com/timkuijsten/node-bson-stream/issues",
+  "bugs": "https://github.com/nicolassahbi/node-bson-stream/issues",
   "scripts": {
     "test": "mocha ./test"
   }
